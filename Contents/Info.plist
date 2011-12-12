@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
   <key>CFBundleGetInfoString</key>
-  <string>Webkit Demo</string>
+  <string>NodObjC Webkit Demo</string>
   <key>CFBundleExecutable</key>
   <string>StartBundledNodeApp</string>
   <key>CFBundleIdentifier</key>
   <string>net.dinhe.nodobjc-demo.webkit</string>
   <key>CFBundleName</key>
-  <string>Webkit Demo</string>
+  <string>NodObjC Webkit Demo</string>
   <key>CFBundleIconFile</key>
   <string>helloworld.icns</string>
   <key>CFBundleShortVersionString</key>
