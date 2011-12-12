@@ -1,0 +1,14 @@
+#!/bin/sh
+
+export Resources="`dirname "$0"`/../Resources"
+
+export PATH="$Resources/bin:$Resources/node_modules/.bin:$PATH:/usr/local/bin"
+
+if [ ! -d "$Resources/node_modules" ]; then
+    { 
+        cd "$Resources"
+        npm install
+    }
+fi
+
+exec node "$Resources/app.js"
