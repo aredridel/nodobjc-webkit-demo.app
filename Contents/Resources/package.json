@@ -1,6 +1,6 @@
 {
   "author": "Aria Stewart <aredridel@dinhe.net>",
-  "name": "NodObjC WebKit Demo",
+  "name": "nodobjc-webkit-demo.app",
   "version": "0.0.0",
   "engines": {
     "node": "~0.6.5"
